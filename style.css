@@ -1,0 +1,78 @@
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 50%);
+    --color-black: hsl(0, 0%, 7%);
+    --color-yellow: hsl(47, 88%, 63%);
+}
+
+/* BASE STYLES */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: var(--color-yellow);
+    margin: unset;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    min-height: 100vh;
+    font-size: 16px; 
+    display: grid;
+    font-family: 'Figtree';
+    place-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.675rem;
+}
+.container {
+    background-color: var(--color-White);
+    place-content: center;
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: .4rem .4rem var(--color-black);
+}
+
+.learn {
+    background-color: var(--color-yellow);
+    margin-right: 10.5rem;
+    padding-left: .5rem;
+    border-radius: 0.2rem;
+}
+
+h3 {
+    padding: .3rem;
+    font-weight: 700;
+}
+
+.para-1 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon p {
+    font-weight: 900;
+    margin: 5px;
+    font-size: 16px;
+}
+
